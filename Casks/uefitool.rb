@@ -8,5 +8,7 @@ cask "uefitool" do
   desc "Program for parsing, extracting and modifying UEFI firmware images"
   homepage "https://github.com/LongSoft/UEFITool"
 
+  conflicts_with cask: "uefitool-ne"
+
   app "UEFITool.app"
 end
