@@ -1,11 +1,11 @@
 name: brew pr-pull
 on:
-  pull_request_target:
-    types:
-      - labeled
+  pull_request:
+    types: 
+      - closed
 jobs:
   pr-pull:
-    if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Set up Homebrew
