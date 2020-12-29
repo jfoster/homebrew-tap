@@ -7,6 +7,14 @@ class License < Formula
   revision 1
   head "https://github.com/nishanths/license.git"
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.0_1"
+    cellar :any_skip_relocation
+    sha256 "5fb9b89671cc1f7e8f079ff76a46f014449554f8d2d25962460e15d0a2ab33e2" => :big_sur
+    sha256 "8073d2c7dd5d420bff6d858f10d4c841ef0c447c191a1f42189b65331fb18a19" => :catalina
+    sha256 "e0186771d566a6d4b8f02af6a36aa738130390376002930b4709782c412aba08" => :x86_64_linux
+  end
+
   depends_on "go" => :build
 
   def install
