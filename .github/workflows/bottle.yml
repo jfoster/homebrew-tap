@@ -1,11 +1,13 @@
-name: brew pr-pull
+name: bottle
+
 on:
   pull_request_target:
     types:
       - labeled
+
 jobs:
   pr-pull:
-    if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
+    if: contains(github.event.pull_request.labels.*.name, 'bottle')
     runs-on: ubuntu-latest
     steps:
       - name: Set up Homebrew
@@ -18,7 +20,8 @@ jobs:
         env:
           HOMEBREW_GITHUB_API_TOKEN: ${{ github.token }}
           PULL_REQUEST: ${{ github.event.pull_request.number }}
-        run: brew pr-pull --debug --tap=$GITHUB_REPOSITORY $PULL_REQUEST
+          WORKFLOW: build.yml
+        run: brew pr-pull --debug --tap=$GITHUB_REPOSITORY --workflows=$WORKFLOW $PULL_REQUEST
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master

@@ -7,6 +7,14 @@ class Deemix < Formula
   sha256 "49a2a3b03503a1c9c7ee2dc140e962cd1909f75d8d3b531793627256f6ea6d99"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-2.0.5"
+    cellar :any_skip_relocation
+    sha256 "310abe92a44018158c75aae4414e62642ef7aae9c4c6ebb8446feb1f320f4de1" => :big_sur
+    sha256 "07bd092757a6a9749ee800d3de113c3cca31a9e6f317f9173eb343803a292f26" => :catalina
+    sha256 "cfa5ab4e377a92a56ac27c2c1796398bb9bf44ba1054932e02b19babc8cd07c5" => :x86_64_linux
+  end
+
   depends_on "python"
 
   resource "certifi" do
