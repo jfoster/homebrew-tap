@@ -9,7 +9,7 @@ class DiscordSlowmodeBot < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args
+    system "go", "build", *std_go_args, "./cmd/discord-slowmode-bot"
   end
 
   test do
