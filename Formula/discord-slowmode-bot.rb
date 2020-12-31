@@ -6,6 +6,14 @@ class DiscordSlowmodeBot < Formula
   license "MIT"
   head "https://github.com/jfoster/discord-slowmode-bot.git"
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/discord-slowmode-bot-0.2.0"
+    cellar :any_skip_relocation
+    sha256 "32f53368b4d096ae1b12183590d4a848ba6466337e7e83ed0cd2bbd45dbd0f8d" => :big_sur
+    sha256 "3c22edb19c7ef1f37b6cafc31e7b9364611c4a8e0e0b4e48f10a943c24ae9e19" => :catalina
+    sha256 "76a87d12ec6793ce83451f6fb466a54629202c3ae95d9b396d004805de0a6db5" => :x86_64_linux
+  end
+
   depends_on "go" => :build
 
   def install
