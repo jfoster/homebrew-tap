@@ -6,6 +6,7 @@ class Deemix < Formula
   url "https://files.pythonhosted.org/packages/db/cb/3f320c11bbb8fb665b4e2337141b00ce5f10ad4ad1c2b92d3349c8e68445/deemix-2.0.10.tar.gz"
   sha256 "9d8003ed2204ae798811c7331140b7effc967d735a0f9f980103cf779577d56b"
   license "GPL-3.0-only"
+  revision 1
 
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-2.0.10"
@@ -15,7 +16,7 @@ class Deemix < Formula
     sha256 "5a273f57ed881c344f15542dd8186fa4e82910894b82f6671bc59e9490c1a619" => :x86_64_linux
   end
 
-  depends_on "python"
+  depends_on "python@3.8"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/06/a9/cd1fd8ee13f73a4d4f491ee219deeeae20afefa914dfb4c130cfc9dc397a/certifi-2020.12.5.tar.gz"
