@@ -11,6 +11,9 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     steps:
+      - name: Install pipgrip
+        run: brew install pipgrip
+
       - name: Update Homebrew formula
         uses: dawidd6/action-homebrew-bump-formula@v3
         with:
