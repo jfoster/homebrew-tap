@@ -2,7 +2,13 @@ name: check
 
 on:
   push:
+    paths:
+      - 'Formula/*'
+      - 'Casks/*'
   pull_request:
+    paths:
+      - 'Formula/*'
+      - 'Casks/*'
 
 jobs:
   check:
