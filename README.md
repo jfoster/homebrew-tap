@@ -1,5 +1,3 @@
-![brew test-bot](https://github.com/jfoster/homebrew-tap/workflows/brew%20test-bot/badge.svg)
-
 # jfoster's Homebrew Tap
 
 Includes stuff that's useful to me that may or may not be made by me.
