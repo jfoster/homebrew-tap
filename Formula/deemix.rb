@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/d9/2c/1ebd6a264c709993ba4ca593409f98f9ea0938698384138ea7d714d781ad/deemix-2.0.5.tar.gz"
-  sha256 "49a2a3b03503a1c9c7ee2dc140e962cd1909f75d8d3b531793627256f6ea6d99"
+  url "https://files.pythonhosted.org/packages/db/cb/3f320c11bbb8fb665b4e2337141b00ce5f10ad4ad1c2b92d3349c8e68445/deemix-2.0.10.tar.gz"
+  sha256 "9d8003ed2204ae798811c7331140b7effc967d735a0f9f980103cf779577d56b"
   license "GPL-3.0-only"
 
   bottle do
@@ -33,8 +33,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/f4/aa/265da875070158bd92d7fb1145a338695e25760de64e4ca6d7b6426404d6/deezer-py-0.0.10.tar.gz"
-    sha256 "3c4bb2e03d0429b080fe079a85e67df917e425daec769bf79f2fe4d1004e033e"
+    url "https://files.pythonhosted.org/packages/b9/e3/073b749ae3b3aa7d132eb24e74bc96094ad3c9d524b714d9f6efbcd6a9f4/deezer-py-0.0.13.tar.gz"
+    sha256 "db47074fbc17e7ae7ebd2f5fb3b55061ac4e34e6b4ec38a1bee847dddac9af80"
   end
 
   resource "dnspython" do
