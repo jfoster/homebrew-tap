@@ -5,7 +5,7 @@ cask "chatty" do
   url "https://github.com/dehesselle/chatty/releases/download/v#{version.before_comma}_mac#{version.after_comma}/Chatty_v#{version.before_comma}_b#{version.after_comma}.dmg"
   appcast "https://github.com/dehesselle/chatty/releases.atom"
   name "Chatty"
-  desc "A Twitch Chat Client for Desktop"
+  desc "Twitch Chat Client for Desktop"
   homepage "https://github.com/dehesselle/chatty"
 
   app "Chatty.app"
