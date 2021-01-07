@@ -3,10 +3,9 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/db/cb/3f320c11bbb8fb665b4e2337141b00ce5f10ad4ad1c2b92d3349c8e68445/deemix-2.0.10.tar.gz"
-  sha256 "9d8003ed2204ae798811c7331140b7effc967d735a0f9f980103cf779577d56b"
+  url "https://files.pythonhosted.org/packages/83/69/d6cb3246b9b0964dc90287b0692db0c578342f6a0e8c1a31cba5ea48dda9/deemix-2.0.11.tar.gz"
+  sha256 "a6fd789c4b91b983003c24864ff1b0c6ad283de89852d4678478f149b9f6231a"
   license "GPL-3.0-only"
-  revision 1
 
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-2.0.10_1"
