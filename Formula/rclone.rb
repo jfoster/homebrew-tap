@@ -40,6 +40,12 @@ class Rclone < Formula
   license "MIT"
   head "https://github.com/rclone/rclone.git"
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/rclone-1.53.3"
+    cellar :any_skip_relocation
+    sha256 "322abb82f6d15746d544c6054e6eb8de01651ea81de4f2e777346b489b0c8342" => :x86_64_linux
+  end
+
   depends_on "go" => :build
   depends_on FuseRequirement unless OS.linux?
 
