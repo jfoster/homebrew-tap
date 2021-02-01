@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/83/69/d6cb3246b9b0964dc90287b0692db0c578342f6a0e8c1a31cba5ea48dda9/deemix-2.0.11.tar.gz"
-  sha256 "a6fd789c4b91b983003c24864ff1b0c6ad283de89852d4678478f149b9f6231a"
+  url "https://files.pythonhosted.org/packages/5c/18/6becf471d92c29a0ba236bca4b0632b118a1f59fb8e38b79dfdaed3233bb/deemix-2.0.13.tar.gz"
+  sha256 "859601923fec8ea4900ec84b3441b72a297e303cc4a39a84797ccfd134af3cd8"
   license "GPL-3.0-only"
 
   bottle do
@@ -33,8 +33,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/b9/e3/073b749ae3b3aa7d132eb24e74bc96094ad3c9d524b714d9f6efbcd6a9f4/deezer-py-0.0.13.tar.gz"
-    sha256 "db47074fbc17e7ae7ebd2f5fb3b55061ac4e34e6b4ec38a1bee847dddac9af80"
+    url "https://files.pythonhosted.org/packages/db/57/4ae4f62284a284795e79e46bb3a173bff58cfd8ad871f2da30321449bd65/deezer-py-0.0.15.tar.gz"
+    sha256 "da0fc66c9fd7333c93d920c66815e47f42d9ade6efa85cd6f321ac101ccae469"
   end
 
   resource "dnspython" do
@@ -48,8 +48,8 @@ class Deemix < Formula
   end
 
   resource "greenlet" do
-    url "https://files.pythonhosted.org/packages/72/0c/fd07c7674ad6eded937194b84d8453425c36c6ef118536907b0185624d82/greenlet-0.4.17.tar.gz"
-    sha256 "41d8835c69a78de718e466dd0e6bfd4b46125f21a67c3ff6d76d8d8059868d6b"
+    url "https://files.pythonhosted.org/packages/92/be/878cc5314fa5aadce33e68738c1a24debe317605196bdfc2049e66bc9c30/greenlet-1.0.0.tar.gz"
+    sha256 "719e169c79255816cdcf6dccd9ed2d089a72a9f6c42273aae12d55e8d35bdcf8"
   end
 
   resource "idna" do
@@ -83,8 +83,8 @@ class Deemix < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/29/e6/d1a1d78c439cad688757b70f26c50a53332167c364edb0134cadd280e234/urllib3-1.26.2.tar.gz"
-    sha256 "19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08"
+    url "https://files.pythonhosted.org/packages/d7/8d/7ee68c6b48e1ec8d41198f694ecdc15f7596356f2ff8e6b1420300cf5db3/urllib3-1.26.3.tar.gz"
+    sha256 "de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"
   end
 
   def install
