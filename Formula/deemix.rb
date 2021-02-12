@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/9f/fc/d055777daea8a189bd2aee6f27fe19b1ae47af17cde12ce6cf65a9ad46c4/deemix-2.0.15.tar.gz"
-  sha256 "30afef7218d40d69aa4134863f173b0e2c3392b33d0b69db2f128fc87d14ab8e"
+  url "https://files.pythonhosted.org/packages/18/86/98c1deb990954a40e802d6fd1c4e03909ee82b9be23885b7977d2b4a3936/deemix-2.0.16.tar.gz"
+  sha256 "09829c6e56fc9d14e999d3d4a8ec59c45f616596be08c19f985d28404affb660"
   license "GPL-3.0-only"
 
   bottle do
@@ -42,8 +42,8 @@ class Deemix < Formula
   end
 
   resource "eventlet" do
-    url "https://files.pythonhosted.org/packages/0c/dd/cda72b013472d570f9d5670b9260a6d6491829bd4b7697829e8591a24168/eventlet-0.30.0.tar.gz"
-    sha256 "19d6f3aa9525221ba60d0ec31b570508021af7ad5497fb77f77501fe9a7c34d3"
+    url "https://files.pythonhosted.org/packages/40/9c/bd7bc0202a84012a4b6b653b54a389ef48bc7f13ce628865357ffdf37160/eventlet-0.30.1.tar.gz"
+    sha256 "d00649a7e17de0bcddff1a96311ed3baf1b295b3223d4b71aceafe7b45e6d6f8"
   end
 
   resource "greenlet" do
@@ -62,8 +62,8 @@ class Deemix < Formula
   end
 
   resource "pycryptodomex" do
-    url "https://files.pythonhosted.org/packages/14/90/f4a934bffae029e16fb33f3bd87014a0a18b4bec591249c4fc01a18d3ab6/pycryptodomex-3.9.9.tar.gz"
-    sha256 "7b5b7c5896f8172ea0beb283f7f9428e0ab88ec248ce0a5b8c98d73e26267d51"
+    url "https://files.pythonhosted.org/packages/82/e2/a0f9f5452a59bafaa3420585f22b58a8566c4717a88c139af2276bb5695d/pycryptodomex-3.10.1.tar.gz"
+    sha256 "541cd3e3e252fb19a7b48f420b798b53483302b7fe4d9954c947605d0a263d62"
   end
 
   resource "requests" do
