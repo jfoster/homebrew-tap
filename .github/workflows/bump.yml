@@ -10,9 +10,6 @@ jobs:
   bump:
     runs-on: ubuntu-latest
     steps:
-      - name: Install pipgrip
-        run: brew install pipgrip
-
       - name: Update Homebrew formula
         uses: jforkster/action-homebrew-bump-formula@no-cask
         with:
