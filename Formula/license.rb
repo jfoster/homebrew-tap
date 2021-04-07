@@ -4,7 +4,7 @@ class License < Formula
   url "https://github.com/nishanths/license/archive/v5.0.0.tar.gz"
   sha256 "4a011e5c044dd7991b0ddec9a5a6efd50cfb38af0ea8dc2324695975a9c9fb7a"
   license "MIT"
-  revision 2
+  revision 3
   head "https://github.com/nishanths/license.git"
 
   bottle do
