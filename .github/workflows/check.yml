@@ -1,14 +1,11 @@
 name: check
 
 on:
-  # push:
-  #   paths:
-  #     - 'Formula/*'
-  #     - 'Casks/*'
   pull_request:
     paths:
-      - 'Formula/*'
-      - 'Casks/*'
+    - 'Formula/*.rb'
+    - 'Casks/*.rb'
+  workflow_dispatch:
 
 jobs:
   check:
