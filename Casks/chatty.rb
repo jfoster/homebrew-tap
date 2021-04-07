@@ -1,6 +1,6 @@
 cask "chatty" do
-  version "0.13.1_mac44"
-  sha256 "dec2fd80010a48f9b25814547fbccf29f969f3a287f71b6228a0685a776e37e9"
+  version "0.14_mac45"
+  sha256 "7d021002ae5088ae660b11b9621687921bd7de93a955b71718f26c93924db7e4"
 
   url "https://github.com/dehesselle/chatty/releases/download/v#{version}/Chatty_v#{version}.dmg"
   appcast "https://github.com/dehesselle/chatty/releases.atom"
