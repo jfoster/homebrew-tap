@@ -10,10 +10,11 @@ on:
 jobs:
   check:
     strategy:
+      fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
           - macos-latest
+          - ubuntu-latest
     runs-on: ${{ matrix.os }}
     steps:
       - name: Set up Homebrew
