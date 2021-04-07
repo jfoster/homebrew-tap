@@ -38,6 +38,7 @@ class Rclone < Formula
   url "https://github.com/rclone/rclone/archive/v1.55.0.tar.gz"
   sha256 "503c051b8250b63c0bdcb2fdfe7810058abca7fdd079edf21739af75686c35c7"
   license "MIT"
+  revision 1
   head "https://github.com/rclone/rclone.git"
 
   bottle do
@@ -52,7 +53,7 @@ class Rclone < Formula
     # ENV.deparallelize
     args = *std_go_args
     on_macos do
-      args += ["-tags", "brew,cmount"]
+      args += ["-tags", "cmount"]
     end
     system "go", "build",
       "-ldflags", "-s -X github.com/rclone/rclone/fs.Version=v#{version}",
