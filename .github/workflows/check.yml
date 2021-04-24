@@ -1,6 +1,12 @@
 name: check
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+    - 'Formula/*.rb'
+    - 'Casks/*.rb'
   pull_request:
     paths:
     - 'Formula/*.rb'
