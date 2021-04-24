@@ -7,7 +7,7 @@ class FuseRequirement < Requirement
 
   download "https://osxfuse.github.io/"
 
-  satisfy(build_env: false) { self.class.binary_fuse_installed? }
+  satisfy(build_env: true) { self.class.binary_fuse_installed? }
 
   sig { returns(T::Boolean) }
   def self.binary_fuse_installed?
