@@ -20,6 +20,10 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
+      - name: Set up MacOS
+        run : brew install --cask macfuse
+        if: runner.os == 'macOS'
+
       - name: Cache Homebrew Bundler RubyGems
         id: cache
         uses: actions/cache@v1
