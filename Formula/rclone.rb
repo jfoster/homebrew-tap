@@ -38,7 +38,7 @@ class Rclone < Formula
   url "https://github.com/rclone/rclone/archive/v1.55.0.tar.gz"
   sha256 "503c051b8250b63c0bdcb2fdfe7810058abca7fdd079edf21739af75686c35c7"
   license "MIT"
-  revision 1
+  revision 2
   head "https://github.com/rclone/rclone.git"
 
   bottle do
