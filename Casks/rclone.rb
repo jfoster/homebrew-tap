@@ -7,6 +7,11 @@ cask "rclone" do
   desc "Command line program to manage files on cloud storage."
   homepage "https://rclone.org"
 
+  livecheck do
+    url "https://github.com/rclone/rclone/releases"
+    strategy :github_latest
+  end
+
   conflicts_with formula: "rclone"
 
   binary "rclone-v#{version}-osx-amd64/rclone"
