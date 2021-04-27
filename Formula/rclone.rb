@@ -72,5 +72,3 @@ class Rclone < Formula
     assert_match File.read(testpath/"file1.txt"), File.read(testpath/"dist/file1.txt")
   end
 end
-
-end
