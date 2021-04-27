@@ -32,7 +32,6 @@ class FuseRequirement < Requirement
   end
 end
 
-  
 class Rclone < Formula
   desc "Rsync for cloud storage"
   homepage "https://rclone.org/"
