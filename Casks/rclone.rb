@@ -5,8 +5,8 @@ cask "rclone" do
   url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-amd64.zip",
       verified: "github.com/rclone/rclone"
   name "rclone"
-  desc "Command line program to manage files on cloud storage."
-  homepage "https://rclone.org"
+  desc "Command-line program to manage files on cloud storage"
+  homepage "https://rclone.org/"
 
   livecheck do
     url "https://github.com/rclone/rclone/releases"
