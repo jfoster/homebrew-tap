@@ -41,6 +41,11 @@ class Rclone < Formula
   revision 1
   head "https://github.com/rclone/rclone.git"
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/rclone-1.55.1_1"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "cdbf7a62d932689fc35769ae4641eef8b20cdf130059eb95901c096f02366f1c"
+  end
+
   depends_on FuseRequirement unless OS.linux?
   depends_on "go" => :build
 
