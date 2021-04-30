@@ -5,6 +5,7 @@ class Deemix < Formula
   homepage "https://www.reddit.com/r/deemix"
   url "https://files.pythonhosted.org/packages/18/86/98c1deb990954a40e802d6fd1c4e03909ee82b9be23885b7977d2b4a3936/deemix-2.0.16.tar.gz"
   sha256 "09829c6e56fc9d14e999d3d4a8ec59c45f616596be08c19f985d28404affb660"
+  revision 1
   license "GPL-3.0-only"
 
   bottle do
