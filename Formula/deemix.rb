@@ -91,6 +91,7 @@ class Deemix < Formula
   end
 
   test do
-    system "true"
+    help_output = shell_output("#{bin}/deemix --help")
+    assert_match "Usage: deemix [OPTIONS] URL...", help_output
   end
 end
