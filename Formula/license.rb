@@ -8,10 +8,10 @@ class License < Formula
   head "https://github.com/nishanths/license.git"
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.0_3"
-    sha256 cellar: :any_skip_relocation, big_sur:      "aed7162933db48b89f14a9c76c0b7a74b74dd48756bff8a784909c938402ba55"
-    sha256 cellar: :any_skip_relocation, catalina:     "3b507b2710dd0a2f2dac993cf4a036c0647fa1406f93bca681a455288c3efcfb"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "9aa9d1bb1d79e99e089a7eaf8498afb32a1ba0e4647e9ebac8645009ffbc2726"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.0_4"
+    sha256 cellar: :any_skip_relocation, big_sur:      "ec8886f13006f3ee1949289722a27900a37c4d64023f52ad5955203b7f7b3c52"
+    sha256 cellar: :any_skip_relocation, catalina:     "a5c6af063b87c7b808c2c8bdc34e639bbcf9e8308d6eed9b8c9b535c57c563bb"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "17e2e717321455f5a24dc9bfc3bb99c9e7abd5de0cc19448e138ca271a6e2ec4"
   end
 
   depends_on "go" => :build
