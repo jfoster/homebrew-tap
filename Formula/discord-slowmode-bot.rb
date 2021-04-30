@@ -8,10 +8,10 @@ class DiscordSlowmodeBot < Formula
   head "https://github.com/jfoster/discord-slowmode-bot.git"
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/discord-slowmode-bot-0.2.0_2"
-    sha256 cellar: :any_skip_relocation, big_sur:      "5461531fef1dd73c91dc02f17d87f0beb6e766da1bda3e2d43f4307160755a0a"
-    sha256 cellar: :any_skip_relocation, catalina:     "ad089c3b0b735ca3873de28ce8195ce1354a84fc30b898a2205acab3111743d1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "9acb2bf8547b705a7b40675c0209e3dfcb8c85f00b8fbd3541cf746fe8ed3f65"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/discord-slowmode-bot-0.2.0_4"
+    sha256 cellar: :any_skip_relocation, big_sur:      "a58b5cf34881a4b8b0fb0f8d69ee0ea26db4e1dd6afa4b1b652fe48fc0f20514"
+    sha256 cellar: :any_skip_relocation, catalina:     "4fca3ab98ceacd07d6f76de695b7d49308c48279bc6acf730138da9d745354f8"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "287039853c4b55033ff49f082e7a252b1d050c6886b9f5f03fd7121d4e252740"
   end
 
   depends_on "go" => :build
