@@ -3,7 +3,7 @@ class F1viewer < Formula
   homepage "https://github.com/SoMuchForSubtlety/f1viewer"
   url "https://github.com/SoMuchForSubtlety/f1viewer/archive/refs/tags/v2.0.0.tar.gz"
   sha256 "2e5e0c1db55912c6ff5f65895c023ffa7923b14e465d032bcacdcd61441be25f"
-  license "GPL-3.0"
+  license "GPL-3.0-only"
 
   depends_on "go" => :build
 
