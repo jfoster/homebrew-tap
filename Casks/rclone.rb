@@ -14,6 +14,7 @@ cask "rclone" do
   end
 
   conflicts_with formula: "rclone"
+  depends_on cask: "macfuse"
 
   binary "rclone-v#{version}-osx-amd64/rclone"
 end
