@@ -7,9 +7,5 @@ cask "nowtvplayer" do
   desc "Watch NOW TV"
   homepage "https://www.nowtv.com/"
 
-  livecheck do
-    skip
-  end
-
   app "NOW TV Player.app"
 end
