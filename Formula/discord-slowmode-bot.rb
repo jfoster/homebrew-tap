@@ -4,7 +4,7 @@ class DiscordSlowmodeBot < Formula
   url "https://github.com/jfoster/discord-slowmode-bot/archive/v0.2.0.tar.gz"
   sha256 "3f940e859df9c4d049ab0797d0486abfcad4739c0419e7c71c915f34a9b2fa93"
   license "MIT"
-  revision 4
+  revision 5
   head "https://github.com/jfoster/discord-slowmode-bot.git"
 
   livecheck do
