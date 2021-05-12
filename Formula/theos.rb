@@ -12,6 +12,12 @@ class Theos < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/theos-2.5_2"
+    sha256 cellar: :any_skip_relocation, big_sur:  "fe197625ae318dc02490510e0490b13f6afa408472ce30f5d80cb4a2960d59f6"
+    sha256 cellar: :any_skip_relocation, catalina: "fc428b0a116cbd420ed0da8d08d790c9789c5e1f52c00862836e515ab2f55141"
+  end
+
   depends_on "ldid"
   depends_on :xcode
   depends_on "xz"
