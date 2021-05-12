@@ -12,6 +12,12 @@ class License < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-3.0.0_6"
+    sha256 cellar: :any_skip_relocation, big_sur:  "36d2d33faa5c6c7211a0756954d25edb1b9790f9ce5a30a02f8e5e413b68bb08"
+    sha256 cellar: :any_skip_relocation, catalina: "25a015d7932bb69717f748369f695c7bba10c138cd9b1fef943479b7f96668c9"
+  end
+
   depends_on "go" => :build
 
   def install
