@@ -6,6 +6,11 @@ class Theos < Formula
   license "GPL-3.0-only"
   head "https://github.com/theos/theos.git"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   bottle :unneeded
 
   depends_on "ldid"
