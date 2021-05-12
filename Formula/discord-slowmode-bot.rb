@@ -7,6 +7,11 @@ class DiscordSlowmodeBot < Formula
   revision 4
   head "https://github.com/jfoster/discord-slowmode-bot.git"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/discord-slowmode-bot-0.2.0_4"
     sha256 cellar: :any_skip_relocation, big_sur:      "a58b5cf34881a4b8b0fb0f8d69ee0ea26db4e1dd6afa4b1b652fe48fc0f20514"
