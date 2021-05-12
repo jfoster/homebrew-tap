@@ -5,6 +5,11 @@ class F1viewer < Formula
   sha256 "1ca21302bac36467d9da175495e85fffa33c0b4b842dfe95d597ae6d01f6403a"
   license "GPL-3.0-only"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/f1viewer-2.0.4"
     sha256 cellar: :any_skip_relocation, big_sur:      "2e1f2cde33bbd581bd7af76124bedd0260b81d071df8fa97921d2c8b819b89d4"
