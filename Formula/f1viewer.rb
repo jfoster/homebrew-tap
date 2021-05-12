@@ -11,6 +11,12 @@ class F1viewer < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/f1viewer-2.0.1_2"
+    sha256 cellar: :any_skip_relocation, big_sur:  "583b87226a965a6eb230ff0b23cddd8af6e01bf0bdd980656f7872587e624a90"
+    sha256 cellar: :any_skip_relocation, catalina: "c95c89e201935d0c035666f67abe51dcd3418d93061720c20b56ec27aca5a289"
+  end
+
   depends_on "go" => :build
 
   def install
