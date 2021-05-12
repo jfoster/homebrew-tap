@@ -4,14 +4,13 @@ class Theos < Formula
   url "https://github.com/theos/theos.git", tag: "2.5"
   sha256 "20539477e6d517917c93914d1c6f2920c172fb006139863675b8ac23505bede5"
   license "GPL-3.0-only"
+  revision 2
   head "https://github.com/theos/theos.git"
 
   livecheck do
     url :url
     strategy :github_latest
   end
-
-  bottle :unneeded
 
   depends_on "ldid"
   depends_on :xcode
