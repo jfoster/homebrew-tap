@@ -1,21 +1,15 @@
 class License < Formula
   desc "Command-line license text generator"
   homepage "https://github.com/nishanths/license"
-  url "https://github.com/nishanths/license/archive/v5.0.0.tar.gz"
+  url "https://github.com/nishanths/license/archive/v3.0.0.tar.gz"
   sha256 "4a011e5c044dd7991b0ddec9a5a6efd50cfb38af0ea8dc2324695975a9c9fb7a"
   license "MIT"
-  revision 5
+  revision 6
   head "https://github.com/nishanths/license.git"
 
   livecheck do
     url :url
     strategy :github_latest
-  end
-
-  bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.0_5"
-    sha256 cellar: :any_skip_relocation, big_sur:  "45f84364559e6e70362de86c71a88cb53a017a2cfeb29f99bc21773b5464a1b3"
-    sha256 cellar: :any_skip_relocation, catalina: "b97588dee1a069057a79a379b302103f740b872dacf7f23183a11932865dce1e"
   end
 
   depends_on "go" => :build
