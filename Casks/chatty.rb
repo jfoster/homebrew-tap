@@ -3,11 +3,11 @@ cask "chatty" do
     version "0.14_mac45"
     sha256 "7d021002ae5088ae660b11b9621687921bd7de93a955b71718f26c93924db7e4"
     url "https://github.com/dehesselle/chatty/releases/download/v#{version}/Chatty_v#{version}.dmg"
-  
+
     livecheck do
       url "https://github.com/dehesselle/chatty/releases"
       strategy :page_match
-      regex(%r{href=.*?\/Chatty_v(\d+(?:\.\d+)+\_mac\d+)\.dmg}i)
+      regex(%r{href=.*?/Chatty_v(\d+(?:\.\d+)+_mac\d+)\.dmg}i)
     end
   else
     version "0.14_mac46"
@@ -17,7 +17,7 @@ cask "chatty" do
     livecheck do
       url "https://github.com/dehesselle/chatty/releases"
       strategy :page_match
-      regex(%r{href=.*?\/Chatty_v(\d+(?:\.\d+)+\_mac\d+)_arm64\.dmg}i)
+      regex(%r{href=.*?/Chatty_v(\d+(?:\.\d+)+_mac\d+)_arm64\.dmg}i)
     end
   end
 
