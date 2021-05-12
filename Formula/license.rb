@@ -7,6 +7,11 @@ class License < Formula
   revision 4
   head "https://github.com/nishanths/license.git"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.0_4"
     sha256 cellar: :any_skip_relocation, big_sur:      "ec8886f13006f3ee1949289722a27900a37c4d64023f52ad5955203b7f7b3c52"
