@@ -5,6 +5,7 @@ class F1viewer < Formula
   sha256 "0df83a5f657107559586217ea71c460c97dc730785cc14fd8ebf0e75cd1914a9"
   license "GPL-3.0-only"
   revision 2
+  head "https://github.com/SoMuchForSubtlety/f1viewer.git"
 
   livecheck do
     url :url
