@@ -13,9 +13,9 @@ class Theos < Formula
   end
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/theos-2.5_2"
-    sha256 cellar: :any_skip_relocation, big_sur:  "fe197625ae318dc02490510e0490b13f6afa408472ce30f5d80cb4a2960d59f6"
-    sha256 cellar: :any_skip_relocation, catalina: "fc428b0a116cbd420ed0da8d08d790c9789c5e1f52c00862836e515ab2f55141"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/theos-2.5_3"
+    sha256 cellar: :any_skip_relocation, big_sur:  "0bad5b78da0a2bd6abd4bf607c7035e9ddfefe872c12579712d3731f14a93b7d"
+    sha256 cellar: :any_skip_relocation, catalina: "91cbeb0146f4679f715223e4a7a96f97936b0e34b256a3ed03bc4f6ed7f96832"
   end
 
   depends_on "ldid"

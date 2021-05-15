@@ -4,7 +4,7 @@ class License < Formula
   url "https://github.com/nishanths/license/archive/v3.0.0.tar.gz"
   sha256 "ad44a710a1ed24ea32bbf1d1c43889270486eaea8dbacc8052b03e031ffb808c"
   license "MIT"
-  revision 6
+  revision 7
   head "https://github.com/nishanths/license.git"
 
   livecheck do
@@ -13,9 +13,10 @@ class License < Formula
   end
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-3.0.0_6"
-    sha256 cellar: :any_skip_relocation, big_sur:  "36d2d33faa5c6c7211a0756954d25edb1b9790f9ce5a30a02f8e5e413b68bb08"
-    sha256 cellar: :any_skip_relocation, catalina: "25a015d7932bb69717f748369f695c7bba10c138cd9b1fef943479b7f96668c9"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-3.0.0_7"
+    sha256 cellar: :any_skip_relocation, big_sur:      "962707df11705cd9c7fce1beda7f641681ca196ff0ce7a56223a67ecf9809852"
+    sha256 cellar: :any_skip_relocation, catalina:     "9854f0eded3e63bb6424eb0d6eec97d3de3810e9736e429e6e3418dbc0089320"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "04916fd72a38f97cd294dd48876fe5a8034601744280302b3684c895682d6d36"
   end
 
   depends_on "go" => :build
