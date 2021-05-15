@@ -35,7 +35,7 @@ jobs:
       - name: Build bottles
         run: |
           brew test-bot --only-cleanup-before
-          brew test-bot --only-formulae --skip-recursive-dependents
+          brew test-bot --only-formulae --skip-recursive-dependents --build-from-source
 
       - name: Upload bottles
         if: always()
