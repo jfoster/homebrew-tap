@@ -4,7 +4,7 @@ class F1viewer < Formula
   url "https://github.com/SoMuchForSubtlety/f1viewer/archive/refs/tags/v2.0.1.tar.gz"
   sha256 "0df83a5f657107559586217ea71c460c97dc730785cc14fd8ebf0e75cd1914a9"
   license "GPL-3.0-only"
-  revision 3
+  revision 4
   head "https://github.com/SoMuchForSubtlety/f1viewer.git"
 
   livecheck do
