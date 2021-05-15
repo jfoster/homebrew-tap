@@ -19,9 +19,11 @@ class Theos < Formula
   end
 
   depends_on "ldid"
-  depends_on :macos
-  depends_on :xcode
   depends_on "xz"
+
+  on_macos do
+    depends_on :xcode
+  end
 
   def install
     prefix.install Dir["*"]
