@@ -4,7 +4,7 @@ class Theos < Formula
   url "https://github.com/theos/theos.git", tag: "2.5"
   sha256 "20539477e6d517917c93914d1c6f2920c172fb006139863675b8ac23505bede5"
   license "GPL-3.0-only"
-  revision 2
+  revision 4
   head "https://github.com/theos/theos.git"
 
   livecheck do
@@ -19,8 +19,11 @@ class Theos < Formula
   end
 
   depends_on "ldid"
-  depends_on :xcode
   depends_on "xz"
+
+  on_macos do
+    depends_on :xcode
+  end
 
   def install
     prefix.install Dir["*"]
