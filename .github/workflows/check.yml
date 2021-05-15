@@ -42,4 +42,12 @@ jobs:
 
       - run: brew test-bot --only-cleanup-before
       - run: brew test-bot --only-setup
-      - run: brew test-bot --only-tap-syntax
+
+      - run: |
+          brew audit --formulae --strict --online --skip-style
+          brew style --formulae
+
+      - run: |
+          brew audit --casks --strict --online --skip-style
+          brew style --casks
+        if: runner.os != 'Linux'
