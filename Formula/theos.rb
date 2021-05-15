@@ -19,6 +19,7 @@ class Theos < Formula
   end
 
   depends_on "ldid"
+  depends_on :macos
   depends_on :xcode
   depends_on "xz"
 
