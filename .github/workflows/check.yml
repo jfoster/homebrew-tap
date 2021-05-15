@@ -44,10 +44,10 @@ jobs:
       - run: brew test-bot --only-setup
 
       - run: |
-          brew audit --formulae --strict --online --skip-style
-          brew style --formulae
+          brew audit --formulae --strict --online --skip-style --tap=$GITHUB_REPOSITORY
+          brew style --formulae $GITHUB_REPOSITORY
 
       - run: |
-          brew audit --casks --strict --online --skip-style
-          brew style --casks
+          brew audit --casks --strict --online --skip-style --tap=$GITHUB_REPOSITORY
+          brew style --casks $GITHUB_REPOSITORY
         if: runner.os != 'Linux'
