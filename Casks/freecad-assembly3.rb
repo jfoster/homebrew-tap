@@ -14,7 +14,7 @@ cask "freecad-assembly3" do
   homepage "https://github.com/realthunder/FreeCAD_assembly3"
 
   livecheck do
-    url "https://github.com/realthunder/FreeCAD_assembly3/releases"
+    url "https://github.com/realthunder/FreeCAD_assembly3/releases/latest"
     strategy :page_match do |page|
       match = page.match(
         %r{href=.*?/(\d+(?:\.\d+)*)/FreeCAD-asm3-Stable-.*?-(\d+?)-x86_64\.dmg}i,
