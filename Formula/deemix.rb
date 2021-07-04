@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/60/3a/a44e4a1690c1c4efe20ca9b4d0c2a3245e44551f92cd4ea5455e8556e545/deemix-3.0.1.tar.gz"
-  sha256 "78dad8a32fa3bb93ddc5b454139242352438029a59cc646a9ea1e1dd66a1fc35"
+  url "https://files.pythonhosted.org/packages/cb/37/a69526c48acb587946fef7e07992111537a319ec21e197375fa81213e622/deemix-3.0.2.tar.gz"
+  sha256 "fa7dc218c57513c6270b4add965becd5d4d408759e30f6d47f79fbf902f940ad"
   license "GPL-3.0-only"
 
   bottle do
