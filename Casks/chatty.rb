@@ -1,5 +1,5 @@
 cask "chatty" do
-  version "0.14_mac45"
+  version "0.15_mac48"
 
   if Hardware::CPU.intel?
     sha256 "6132a96127eed0148ecfc314ba555eb54fef9057b7e780a641a9841170053435"
