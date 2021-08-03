@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/d7/9c/9198718f4d7f7896b0d8ee31d9edcd1de3695bfc1a207e0668e739c2e7da/deemix-3.3.4.tar.gz"
-  sha256 "bcb9f04f5bb52e160e1da6d2308a861537b54a7332e13d33944ee82cd000f0d2"
+  url "https://files.pythonhosted.org/packages/e1/4e/16a26793ee7718ffa130b9a06d7c82d7b567a18fbe7797a5dd3821d620a3/deemix-3.4.0.tar.gz"
+  sha256 "dec417b0b6e53e36122b34d0e8cdce04f6515eb496e400b4bcb03ef40ff23d30"
   license "GPL-3.0-only"
 
   bottle do
@@ -21,8 +21,8 @@ class Deemix < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/37/fd/05a04d7e14548474d30d90ad0db5d90ee2ba55cd967511a354cf88b534f1/charset-normalizer-2.0.3.tar.gz"
-    sha256 "c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"
+    url "https://files.pythonhosted.org/packages/e7/4e/2af0238001648ded297fb54ceb425ca26faa15b341b4fac5371d3938666e/charset-normalizer-2.0.4.tar.gz"
+    sha256 "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"
   end
 
   resource "click" do
@@ -31,8 +31,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/85/df/d4c527f07a542965eb947b6650131449548955c9885717721b24069149b5/deezer-py-1.0.4.tar.gz"
-    sha256 "73396d09b5ba1b0e3365b6b68b38dd16af71ccb6b825d328cf6740a0cce7a75c"
+    url "https://files.pythonhosted.org/packages/28/7a/82ec085d8e537b06813d9ca65961010fdd7f90bf346929376b21d0a675e7/deezer-py-1.1.1.tar.gz"
+    sha256 "1008863122eb46c174dc530b922cf2dc59be9c095d493c5ef4a7571457a9d224"
   end
 
   resource "idna" do
