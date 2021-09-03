@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/73/a6/2de34e668b24972cb76e8aa3da32edda4b9ea14002bf113d63f1c3caed3a/deemix-3.4.3.tar.gz"
-  sha256 "7122e36e8c06f7ca5b133181d7b4648658bdd3178ecb339c1209576f949e3491"
+  url "https://files.pythonhosted.org/packages/7a/d6/3c1f8637037bc453d121a49c9a1d062f4d2ea57b201cacaa4e67d143a15f/deemix-3.4.4.tar.gz"
+  sha256 "1d9836cf2b3dda01f58fc59682bcc7ddfa71a050e2f8b3d42e6be5914781f45c"
   license "GPL-3.0-only"
 
   bottle do
@@ -61,8 +61,8 @@ class Deemix < Formula
   end
 
   resource "spotipy" do
-    url "https://files.pythonhosted.org/packages/50/0d/dcb5fd830c2a2689ea17a0ae98d29c6ac9be0937fca2779645531a66b796/spotipy-2.18.0.tar.gz"
-    sha256 "f7293b808696807e9acec6bdcff63f7dcc3cc1b148c0c4b4299ef43c966f7177"
+    url "https://files.pythonhosted.org/packages/20/fc/c049de371678e9c9505d8f76be42cdfb7321485ba8c88d07cb863eec7f88/spotipy-2.19.0.tar.gz"
+    sha256 "904f6e813dba837758e9510c1bee51d7ca217f169246625a13e693733dc33543"
   end
 
   resource "urllib3" do
