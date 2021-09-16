@@ -1,8 +1,8 @@
 cask "freecad-assembly3" do
-  version "0.11,20210911"
+  version "0.11,20210916"
 
   if MacOS.version <= :catalina
-    sha256 "4d790d3b77854f6c839763a9aa9f9c463f0f75f156d889fa96787e74474f1c03"
+    sha256 "ef5c999d8dd0310abac43c0f59b3e1ccb8f38a2ab69c679e95c135ed5df90758"
     url "https://github.com/realthunder/FreeCAD_assembly3/releases/download/#{version.before_comma}/FreeCAD-asm3-Stable-OSX-Conda-Py3-Qt5-#{version.after_comma}-x86_64.dmg"
   else
     sha256 "a10c9a6fcc114a1e6ac8ab0d64624bc438555e1cf540fa14c831e454b2442b6d"
