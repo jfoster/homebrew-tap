@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/7a/d6/3c1f8637037bc453d121a49c9a1d062f4d2ea57b201cacaa4e67d143a15f/deemix-3.4.4.tar.gz"
-  sha256 "1d9836cf2b3dda01f58fc59682bcc7ddfa71a050e2f8b3d42e6be5914781f45c"
+  url "https://files.pythonhosted.org/packages/0b/9f/aafde079f957d1ee9fb9a07c5b623b1a12de0b0bd1c397a10daeb4b1f762/deemix-3.5.1.tar.gz"
+  sha256 "3347d07fab5dcadcfa7798383ba0a2e026d4bfdc0a7c2a7584d7fbf128a3c233"
   license "GPL-3.0-only"
 
   bottle do
@@ -21,8 +21,8 @@ class Deemix < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/4e/2af0238001648ded297fb54ceb425ca26faa15b341b4fac5371d3938666e/charset-normalizer-2.0.4.tar.gz"
-    sha256 "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"
+    url "https://files.pythonhosted.org/packages/eb/7f/a6c278746ddbd7094b019b08d1b2187101b1f596f35f81dc27f57d8fcf7c/charset-normalizer-2.0.6.tar.gz"
+    sha256 "5ec46d183433dcbd0ab716f2d7f29d8dee50505b3fdb40c6b985c7c4f5a3591f"
   end
 
   resource "click" do
@@ -31,8 +31,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/00/ad/10e19cab3091712ee78d9ec860d858268f45fb0a831a3b8b03177fcf4502/deezer-py-1.1.3.tar.gz"
-    sha256 "15d2d224500b78671e70b00793d9212532a531ddcc79cff0fcf190387ab160c4"
+    url "https://files.pythonhosted.org/packages/5c/1f/efa4302ddac94755f20361dbcf1c727b8eb1e6b177fcd1ae7c3681f32c5a/deezer-py-1.2.2.tar.gz"
+    sha256 "a491af5fcc9e44a2a28be8832169e703a920dae42c78539f45cad59075700ac9"
   end
 
   resource "idna" do
@@ -55,19 +55,9 @@ class Deemix < Formula
     sha256 "b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7"
   end
 
-  resource "six" do
-    url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
-    sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
-  end
-
-  resource "spotipy" do
-    url "https://files.pythonhosted.org/packages/20/fc/c049de371678e9c9505d8f76be42cdfb7321485ba8c88d07cb863eec7f88/spotipy-2.19.0.tar.gz"
-    sha256 "904f6e813dba837758e9510c1bee51d7ca217f169246625a13e693733dc33543"
-  end
-
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/4f/5a/597ef5911cb8919efe4d86206aa8b2658616d676a7088f0825ca08bd7cb8/urllib3-1.26.6.tar.gz"
-    sha256 "f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"
+    url "https://files.pythonhosted.org/packages/80/be/3ee43b6c5757cabea19e75b8f46eaf05a2f5144107d7db48c7cf3a864f73/urllib3-1.26.7.tar.gz"
+    sha256 "4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"
   end
 
   def install
