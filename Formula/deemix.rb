@@ -8,9 +8,9 @@ class Deemix < Formula
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-3.4.4"
-    sha256 cellar: :any_skip_relocation, big_sur:  "4b9a9bfe9367e9cf631d29a45741ac7e3482aa2cb7d175c03b750051abf2eedc"
-    sha256 cellar: :any_skip_relocation, catalina: "36dd9f2d75b0b88ecdabb3a5bbd3928498047498a81ed317e8f3d09f8952b150"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-3.5.1"
+    sha256 cellar: :any_skip_relocation, big_sur:  "b97d0bd75961f79eba834f56e6f51f0ff6f72731a4ebd8554840b5be174cce5e"
+    sha256 cellar: :any_skip_relocation, catalina: "76f14afa34b9468712fbaf071633e36bd8d88cd9d81adafa6dbf61cb13d0c16e"
   end
 
   depends_on "python@3.8"
