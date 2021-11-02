@@ -4,7 +4,7 @@ cask "semulov" do
 
   url "https://github.com/kainjow/Semulov/releases/download/v#{version}/Semulov.zip"
   name "semulov"
-  desc "Access mounted and unmounted volumes from the menubar."
+  desc "Access mounted and unmounted volumes from the menubar"
   homepage "https://github.com/kainjow/Semulov"
 
   app "Semulov.app"
