@@ -4,7 +4,7 @@ cask "tunerstudio" do
 
   url "http://www.tunerstudio.com/downloads2/TunerStudio_MS_#{version}.dmg"
   name "tunerstudio"
-  desc "Fully set up and tune any MegaSquirt controller with a refined and simple interface"
+  desc "Fully tune any MegaSquirt controller with a refined and simple interface"
   homepage "http://www.tunerstudio.com/"
 
   app "TunerStudio_MS.app", target: "TunerStudio.app"
