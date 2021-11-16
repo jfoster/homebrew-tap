@@ -11,6 +11,12 @@ class SteamguardCli < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/steamguard-cli-0.4.2"
+    sha256 cellar: :any_skip_relocation, big_sur:  "e65eaf24c824936237a0604a1aff88e28169a8c71da8d7c0556e0e62c406c227"
+    sha256 cellar: :any_skip_relocation, catalina: "1eeef2935d4fbdb6b2fac765804fb752988ce2f7a4812d9a98e9694d0c84f75f"
+  end
+
   depends_on "rust" => :build
 
   def install
