@@ -1,8 +1,8 @@
 class F1viewer < Formula
   desc "🏎️ TUI for F1TV"
   homepage "https://github.com/SoMuchForSubtlety/f1viewer"
-  url "https://github.com/SoMuchForSubtlety/f1viewer/archive/refs/tags/v2.4.0.tar.gz"
-  sha256 "51ff7cc2e32e6b5d0879d308d28cce0f001ab981b83d6e36b695ff7a9ac35e49"
+  url "https://github.com/SoMuchForSubtlety/f1viewer/archive/refs/tags/v2.5.0.tar.gz"
+  sha256 "6dde41cafb849e533455e4ebe2418f7ae65db26dca0fd30569a909c6114adc6a"
   license "GPL-3.0-only"
   head "https://github.com/SoMuchForSubtlety/f1viewer.git"
 
