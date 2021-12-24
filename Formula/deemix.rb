@@ -6,6 +6,7 @@ class Deemix < Formula
   url "https://files.pythonhosted.org/packages/ef/e7/69145ee127abf7918571f94ea6aa281d77da674367ca48256e329e951844/deemix-3.6.1.tar.gz"
   sha256 "a0b542876ebc4e522639f7fbe66de84b2d1d3c98bbaab390e1839feab8f5d393"
   license "GPL-3.0-only"
+  revision 1
 
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-3.6.1"
