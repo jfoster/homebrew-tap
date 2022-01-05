@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/c7/5d/9ec4f89a7c76314a13019fe828d2cb581d9d99ba93aecf21fa4738a420a0/deemix-3.6.4.tar.gz"
-  sha256 "268617b3ff9346ae51a063cbdb820c1f591cbadc1cf2fafd201dc671e721c1dd"
+  url "https://files.pythonhosted.org/packages/ed/67/6a74613f7f0c1c3610aaf8ad49a78e5e409c6513f4381b39a328cd13cb16/deemix-3.6.5.tar.gz"
+  sha256 "c56245b2a2142dafb0658d60919ccf34e04e5d87720d5909e0e030521349a65a"
   license "GPL-3.0-only"
 
   bottle do
@@ -21,8 +21,8 @@ class Deemix < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/68/e4/e014e7360fc6d1ccc507fe0b563b4646d00e0d4f9beec4975026dd15850b/charset-normalizer-2.0.9.tar.gz"
-    sha256 "b0b883e8e874edfdece9c28f314e3dd5badf067342e42fb162203335ae61aa2c"
+    url "https://files.pythonhosted.org/packages/48/44/76b179e0d1afe6e6a91fd5661c284f60238987f3b42b676d141d01cd5b97/charset-normalizer-2.0.10.tar.gz"
+    sha256 "876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd"
   end
 
   resource "click" do
@@ -31,8 +31,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/20/5a/93db7c8d9304e294d9c5fc0a53b1e14ce03a32fe345a83643024aedd8172/deezer-py-1.3.2.tar.gz"
-    sha256 "1b819111cf8f5af6a98673aecc178fada8f8a478268612aab3254728e3f01a29"
+    url "https://files.pythonhosted.org/packages/4c/08/d9155d5a7eb0d7f95c4096a33413cbcaaf502226c6a7102da8745210f959/deezer-py-1.3.5.tar.gz"
+    sha256 "5bc30e8887a7dc1dfec2970d825a69c7c932564300fc84b4e68cbf59bf109baa"
   end
 
   resource "idna" do
@@ -51,8 +51,8 @@ class Deemix < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/e7/01/3569e0b535fb2e4a6c384bdbed00c55b9d78b5084e0fb7f4d0bf523d7670/requests-2.26.0.tar.gz"
-    sha256 "b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7"
+    url "https://files.pythonhosted.org/packages/c0/e3/826e27b942352a74b656e8f58b4dc7ed9495ce2d4eeb498181167c615303/requests-2.27.0.tar.gz"
+    sha256 "8e5643905bf20a308e25e4c1dd379117c09000bf8a82ebccc462cfb1b34a16b5"
   end
 
   resource "urllib3" do
