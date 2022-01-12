@@ -3,8 +3,8 @@ class Deemix < Formula
 
   desc "Deezer downloader"
   homepage "https://www.reddit.com/r/deemix"
-  url "https://files.pythonhosted.org/packages/ed/67/6a74613f7f0c1c3610aaf8ad49a78e5e409c6513f4381b39a328cd13cb16/deemix-3.6.5.tar.gz"
-  sha256 "c56245b2a2142dafb0658d60919ccf34e04e5d87720d5909e0e030521349a65a"
+  url "https://files.pythonhosted.org/packages/e5/a0/0830ad0f4bae4747dddeb5802e9bb466bb60842fbc9609b207f922aaa098/deemix-3.6.6.tar.gz"
+  sha256 "c446a1cc0d4f22b18f7e79ce72e5d02d5429495394164ebfd2ff5588b8160b09"
   license "GPL-3.0-only"
 
   bottle do
@@ -31,8 +31,8 @@ class Deemix < Formula
   end
 
   resource "deezer-py" do
-    url "https://files.pythonhosted.org/packages/4c/08/d9155d5a7eb0d7f95c4096a33413cbcaaf502226c6a7102da8745210f959/deezer-py-1.3.5.tar.gz"
-    sha256 "5bc30e8887a7dc1dfec2970d825a69c7c932564300fc84b4e68cbf59bf109baa"
+    url "https://files.pythonhosted.org/packages/97/4e/18a8530aaed95350a34923556c68691e58440532495be9f4cd2ed684819d/deezer-py-1.3.6.tar.gz"
+    sha256 "a3ef151f7971d69769e7393f71373eaf896bccd22167213872ae46e04e14a2d7"
   end
 
   resource "idna" do
@@ -51,13 +51,13 @@ class Deemix < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/c0/e3/826e27b942352a74b656e8f58b4dc7ed9495ce2d4eeb498181167c615303/requests-2.27.0.tar.gz"
-    sha256 "8e5643905bf20a308e25e4c1dd379117c09000bf8a82ebccc462cfb1b34a16b5"
+    url "https://files.pythonhosted.org/packages/60/f3/26ff3767f099b73e0efa138a9998da67890793bfa475d8278f84a30fec77/requests-2.27.1.tar.gz"
+    sha256 "68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61"
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/80/be/3ee43b6c5757cabea19e75b8f46eaf05a2f5144107d7db48c7cf3a864f73/urllib3-1.26.7.tar.gz"
-    sha256 "4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"
+    url "https://files.pythonhosted.org/packages/b0/b1/7bbf5181f8e3258efae31702f5eab87d8a74a72a0aa78bc8c08c1466e243/urllib3-1.26.8.tar.gz"
+    sha256 "0e7c33d9a63e7ddfcb86780aac87befc2fbddf46c58dbb487e0855f7ceec283c"
   end
 
   def install
