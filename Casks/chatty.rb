@@ -1,11 +1,11 @@
 cask "chatty" do
-  version "0.15_mac48"
+  version "0.16_mac49"
 
   if Hardware::CPU.intel?
-    sha256 "6132a96127eed0148ecfc314ba555eb54fef9057b7e780a641a9841170053435"
+    sha256 "5f1e60203d09447ca76208a9cdaa7b3e42896739dec6e3263d6c30a97431049e"
     url "https://github.com/dehesselle/chatty/releases/download/v#{version}/Chatty_v#{version}_x64.dmg"
   else
-    sha256 "56222ee217afc7e1f7e12fc6d20538dc276b5be7b5746be55b7c98377d0ffc28"
+    sha256 "6d9e0b1743fc23a767c599be8430c1cd0f66dfff0e00e6d5aae50b7715429115"
     url "https://github.com/dehesselle/chatty/releases/download/v#{version}/Chatty_v#{version}_arm64.dmg"
   end
 
