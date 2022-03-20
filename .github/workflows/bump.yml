@@ -31,7 +31,7 @@ jobs:
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
           tap: ${{ github.repository }}
-          force: true
+          force: false
           livecheck: true
 
       - name: Update Homebrew cask
@@ -39,5 +39,5 @@ jobs:
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
           tap: ${{ github.repository }}
-          force: true
+          force: false
           livecheck: true
