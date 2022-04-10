@@ -12,9 +12,9 @@ class F1viewer < Formula
   end
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/f1viewer-2.6.2"
-    sha256 cellar: :any_skip_relocation, big_sur:  "878b1a73fd8732400d9a49a14b5e5d5a0ec2d059222a3c476f4bb171237bbd9a"
-    sha256 cellar: :any_skip_relocation, catalina: "8d91be26b1bd77595276cec37910136101b5f6b1341191b79b357b47ab4f5d2d"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/f1viewer-2.7.0"
+    sha256 cellar: :any_skip_relocation, big_sur:  "26f4183f7b5ed0f8cfb2f51a803833fc5888352c5a15ac552e455c838dbe7224"
+    sha256 cellar: :any_skip_relocation, catalina: "a1d55e715b6ca3678e03adc5d436bac327ace46429049284494f657ee2245b25"
   end
 
   depends_on "go" => :build
