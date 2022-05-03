@@ -1,6 +1,6 @@
 cask "freecad" do
   version "2022.04.30-edge"
-  sha256 "ece919c8551e8624a7fbda92d940d636d2e3e69924baecf0fb9634ed9b4c3992"
+  sha256 "aea08698093ffc14c49a5c8a0a531814e6fc72e5a09bbb3e3ff2a9c42457373d"
 
   url "https://github.com/realthunder/FreeCAD/releases/download/#{version}/FreeCAD-asm3-Stable-OSX-Conda-Py3-Qt5-#{version.delete(".").delete("-edge")}-x86_64.dmg"
   name "FreeCAD"
