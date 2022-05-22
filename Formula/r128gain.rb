@@ -5,7 +5,7 @@ class R128gain < Formula
   homepage "https://github.com/desbma/r128gain"
   url "https://github.com/desbma/r128gain/archive/refs/tags/1.0.6.tar.gz"
   sha256 "1aa20b360b845dec303964d3ba1ab2f5361ece465586ca74862ecee1c69223cc"
-  license "LGPL-2.1"
+  license "LGPL-2.1-or-later"
 
   depends_on "python"
 
