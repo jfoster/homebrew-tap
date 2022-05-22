@@ -10,7 +10,7 @@ class R128gain < Formula
   depends_on "python"
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
+    # ENV.deparallelize
     virtualenv_install_with_resources
   end
 
