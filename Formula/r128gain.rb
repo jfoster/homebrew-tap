@@ -8,6 +8,12 @@ class R128gain < Formula
   license "LGPL-2.1-or-later"
   revision 1
 
+  bottle do
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/r128gain-1.0.6_1"
+    sha256 cellar: :any_skip_relocation, big_sur:  "8a197c006b0c0692480fd0e0acfb0dabe69c405b4b8fb1c15913eb76ed2071ba"
+    sha256 cellar: :any_skip_relocation, catalina: "81ba2d7fa673ed22ace84c3a17504344d15c8ce616b05362dc57ba889ca7898d"
+  end
+
   depends_on "python@3.10"
 
   resource "crcmod" do
