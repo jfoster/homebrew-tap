@@ -6,8 +6,9 @@ class R128gain < Formula
   url "https://files.pythonhosted.org/packages/b8/74/efd73dd810e78b5e358b463e7aea3a541942a484f7e38b907570a2b0b7a9/r128gain-1.0.6.tar.gz"
   sha256 "cc49a9f1f28d69020ffbf97a8d4963b1cc328b955e6503d3d13cd01d0cf89f41"
   license "LGPL-2.1-or-later"
+  revision 1
 
-  depends_on "python"
+  depends_on "python@3.10"
 
   resource "crcmod" do
     url "https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz"
