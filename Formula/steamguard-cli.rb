@@ -4,6 +4,7 @@ class SteamguardCli < Formula
   url "https://github.com/dyc3/steamguard-cli/archive/refs/tags/v0.4.4.tar.gz"
   sha256 "bc1aeb1498a162f78027ea2ed031443d0ca75f6d8b5154341aca23155bec388a"
   license "GPL-3.0-only"
+  revision 1
   head "https://github.com/dyc3/steamguard-cli.git", branch: "master"
 
   livecheck do
