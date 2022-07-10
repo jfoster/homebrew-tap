@@ -1,6 +1,6 @@
 cask "rclone" do
-  version "1.58.1"
-  sha256 "03b104accc26d5aec14088c253ea5a6bba3263ae00fc403737cabceecad9eae9"
+  version "1.59.0"
+  sha256 "e308c72138c1dc9e72e28a47cbf7bfaaed2cf37c3e9e97cc5a597b2cc06ac85d"
 
   url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-amd64.zip",
       verified: "github.com/rclone/rclone"
