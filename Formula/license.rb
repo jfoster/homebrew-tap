@@ -1,10 +1,9 @@
 class License < Formula
   desc "Command-line license text generator"
   homepage "https://github.com/nishanths/license"
-  url "https://github.com/nishanths/license/archive/v3.0.0.tar.gz"
-  sha256 "ad44a710a1ed24ea32bbf1d1c43889270486eaea8dbacc8052b03e031ffb808c"
+  url "https://github.com/nishanths/license/archive/v5.0.4.tar.gz"
+  sha256 "66004bbc196405217161d378109517020f72fc3a71a532d13c25ff1b2c0055ae"
   license "MIT"
-  revision 6
   head "https://github.com/nishanths/license.git"
 
   livecheck do
