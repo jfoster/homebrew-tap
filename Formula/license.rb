@@ -4,6 +4,7 @@ class License < Formula
   url "https://github.com/nishanths/license/archive/v5.0.4.tar.gz"
   sha256 "66004bbc196405217161d378109517020f72fc3a71a532d13c25ff1b2c0055ae"
   license "MIT"
+  revision 1
   head "https://github.com/nishanths/license.git"
 
   livecheck do
