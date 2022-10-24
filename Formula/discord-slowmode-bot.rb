@@ -4,7 +4,7 @@ class DiscordSlowmodeBot < Formula
   url "https://github.com/jfoster/discord-slowmode-bot/archive/v0.2.0.tar.gz"
   sha256 "3f940e859df9c4d049ab0797d0486abfcad4739c0419e7c71c915f34a9b2fa93"
   license "MIT"
-  revision 5
+  revision 6
   head "https://github.com/jfoster/discord-slowmode-bot.git"
 
   livecheck do
@@ -17,6 +17,8 @@ class DiscordSlowmodeBot < Formula
     sha256 cellar: :any_skip_relocation, big_sur:  "2add46a8ec2dfd6ca53c2a9a3b9fe2a3a854d7ffbc061272ecf7f36cd1d24f3d"
     sha256 cellar: :any_skip_relocation, catalina: "873cd39902bd5a94963f7596294c38d5c7c928927bd55cf562139f26bf640b27"
   end
+
+  disable! date: "2022-10-24", because: :does_not_build
 
   depends_on "go" => :build
 
