@@ -6,7 +6,7 @@ class R128gain < Formula
   url "https://files.pythonhosted.org/packages/b8/74/efd73dd810e78b5e358b463e7aea3a541942a484f7e38b907570a2b0b7a9/r128gain-1.0.6.tar.gz"
   sha256 "cc49a9f1f28d69020ffbf97a8d4963b1cc328b955e6503d3d13cd01d0cf89f41"
   license "LGPL-2.1-or-later"
-  revision 1
+  revision 2
 
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/r128gain-1.0.6_1"
