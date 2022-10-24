@@ -18,6 +18,8 @@ class DiscordSlowmodeBot < Formula
     sha256 cellar: :any_skip_relocation, catalina: "873cd39902bd5a94963f7596294c38d5c7c928927bd55cf562139f26bf640b27"
   end
 
+  disable! date: "2022-10-24", because: :does_not_build
+
   depends_on "go" => :build
 
   def install
