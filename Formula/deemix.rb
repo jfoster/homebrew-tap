@@ -9,9 +9,10 @@ class Deemix < Formula
   revision 2
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-3.6.6_1"
-    sha256 cellar: :any_skip_relocation, big_sur:  "97c6d10abfd7418965b5d1568b209152bf2c7a79283eec4999813c8575a6833e"
-    sha256 cellar: :any_skip_relocation, catalina: "de05c82f2855a52cb0c9f35feb5c3aa204788bf8a27fcb93f1a1f6e1b800ad50"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/deemix-3.6.6_2"
+    sha256 cellar: :any_skip_relocation, monterey: "06694444afb7b8511863022f20eff4a7d6ac2651ec399963dfa8af469363d31a"
+    sha256 cellar: :any_skip_relocation, big_sur:  "283f8162e8b6295d6e88369d3497369307e3dfbbf726edb2f1ec55a00806a182"
+    sha256 cellar: :any_skip_relocation, catalina: "751aafc66225acffffe168e5af1490de9ea46c88e26ad5e418ea5fe04fd73aa2"
   end
 
   depends_on "python@3.10"
