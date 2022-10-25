@@ -9,9 +9,10 @@ class R128gain < Formula
   revision 2
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/r128gain-1.0.6_1"
-    sha256 cellar: :any_skip_relocation, big_sur:  "8a197c006b0c0692480fd0e0acfb0dabe69c405b4b8fb1c15913eb76ed2071ba"
-    sha256 cellar: :any_skip_relocation, catalina: "81ba2d7fa673ed22ace84c3a17504344d15c8ce616b05362dc57ba889ca7898d"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/r128gain-1.0.6_2"
+    sha256 cellar: :any_skip_relocation, monterey: "3e059b0b4fcdada290daf74bf430fb6f90e075d082fd7c91427272cac873ee3c"
+    sha256 cellar: :any_skip_relocation, big_sur:  "a43867246822c15506543b551de41bedd8caceca7e6bc25533467d7b7f4c5a40"
+    sha256 cellar: :any_skip_relocation, catalina: "f0a4683fd993bcf483ae9b32e518b893f17f8145ae25cfd331447bec4f76b549"
   end
 
   depends_on "python@3.10"
