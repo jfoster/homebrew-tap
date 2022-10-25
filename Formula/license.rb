@@ -13,9 +13,10 @@ class License < Formula
   end
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.4"
-    sha256 cellar: :any_skip_relocation, big_sur:  "9d92f068e59adddd9a7798e288ec8b6109bdc138ad5df182af199faee4fba669"
-    sha256 cellar: :any_skip_relocation, catalina: "351d7b064c2b050a4e981b2ce9df953097aad875ab475ae6ae19f5ac45c868ba"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/license-5.0.4_1"
+    sha256 cellar: :any_skip_relocation, monterey: "eae6f9f3fc0477f590550005b200fcaa7a941d2027a94a23c79e578006ff1c46"
+    sha256 cellar: :any_skip_relocation, big_sur:  "865b97118d79429bdb9c424da65f4a551c25dd221ae5a5af32b7e328314ee749"
+    sha256 cellar: :any_skip_relocation, catalina: "99b64bd62d04e6abe5f0a00ae9ee82724d46c42fe79d79623ec9cedf6f7145ae"
   end
 
   depends_on "go" => :build
