@@ -12,10 +12,10 @@ class SteamguardCli < Formula
   end
 
   bottle do
-    root_url "https://github.com/jfoster/homebrew-tap/releases/download/steamguard-cli-0.5.0_1"
-    sha256 cellar: :any_skip_relocation, monterey: "3891a1852202f002cedcc2f465423790db236f3a35ff53db665dd770bfe47f33"
-    sha256 cellar: :any_skip_relocation, big_sur:  "b88fc6326f473c78dc19d17ea68f788eb532e9374d5f8c5151f7b6045f52a09c"
-    sha256 cellar: :any_skip_relocation, catalina: "75bd6ddc853b5d707a8c3efac0f8a188197d060ac8389903b5f4d411c970c90b"
+    root_url "https://github.com/jfoster/homebrew-tap/releases/download/steamguard-cli-0.7.0"
+    sha256 cellar: :any_skip_relocation, monterey: "91dcab13597faeb5a980203cf17e9acb98c530e68779428bc383fb37c0365c66"
+    sha256 cellar: :any_skip_relocation, big_sur:  "20cf11df9aae1f57266ded0a5b43e7351385adf9a9d28758f12542f0643b0a26"
+    sha256 cellar: :any_skip_relocation, catalina: "03cf051cc755d7bf0cb0ba8fdae6d74251651bb1025f84c370750f21548b0124"
   end
 
   depends_on "rust" => :build
