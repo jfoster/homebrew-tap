@@ -1,8 +1,8 @@
 class SteamguardCli < Formula
   desc "Utility for generating Steam 2FA codes and managing trade confirmations"
   homepage "https://github.com/dyc3/steamguard-cli"
-  url "https://github.com/dyc3/steamguard-cli/archive/refs/tags/v0.7.0.tar.gz"
-  sha256 "fae8e6b842443c544ee32a4f46bdf49280aa81cb8c443aa45e4c012b9bcef848"
+  url "https://github.com/dyc3/steamguard-cli/archive/refs/tags/v0.12.3.tar.gz"
+  sha256 "ab61be79e595611d39558af38f3708c9212de687c68ec314e683faeca8bfb3e3"
   license "GPL-3.0-only"
   head "https://github.com/dyc3/steamguard-cli.git", branch: "master"
 
