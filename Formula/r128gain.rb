@@ -3,10 +3,9 @@ class R128gain < Formula
 
   desc "Fast audio loudness scanner & tagger"
   homepage "https://github.com/desbma/r128gain"
-  url "https://files.pythonhosted.org/packages/b8/74/efd73dd810e78b5e358b463e7aea3a541942a484f7e38b907570a2b0b7a9/r128gain-1.0.6.tar.gz"
-  sha256 "cc49a9f1f28d69020ffbf97a8d4963b1cc328b955e6503d3d13cd01d0cf89f41"
+  url "https://files.pythonhosted.org/packages/f7/fb/afd16c3ce447da630720ca16b4826d419b020d266ac6a758d4e33bfb97b1/r128gain-1.0.7.tar.gz"
+  sha256 "ece984b8609258989a9158c7f676e1b69402381f535597bf43397e2bb53651e4"
   license "LGPL-2.1-or-later"
-  revision 2
 
   bottle do
     root_url "https://github.com/jfoster/homebrew-tap/releases/download/r128gain-1.0.6_2"
@@ -28,18 +27,18 @@ class R128gain < Formula
   end
 
   resource "future" do
-    url "https://files.pythonhosted.org/packages/45/0b/38b06fd9b92dc2b68d58b75f900e97884c45bedd2ff83203d933cf5851c9/future-0.18.2.tar.gz"
-    sha256 "b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
+    url "https://files.pythonhosted.org/packages/8f/2e/cf6accf7415237d6faeeebdc7832023c90e0282aa16fd3263db0eb4715ec/future-0.18.3.tar.gz"
+    sha256 "34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"
   end
 
   resource "mutagen" do
-    url "https://files.pythonhosted.org/packages/f3/d9/2232a4cb9a98e2d2501f7e58d193bc49c956ef23756d7423ba1bd87e386d/mutagen-1.45.1.tar.gz"
-    sha256 "6397602efb3c2d7baebd2166ed85731ae1c1d475abca22090b7141ff5034b3e1"
+    url "https://files.pythonhosted.org/packages/81/e6/64bc71b74eef4b68e61eb921dcf72dabd9e4ec4af1e11891bbd312ccbb77/mutagen-1.47.0.tar.gz"
+    sha256 "719fadef0a978c31b4cf3c956261b3c58b6948b32023078a2117b1de09f0fc99"
   end
 
   resource "tqdm" do
-    url "https://files.pythonhosted.org/packages/98/2a/838de32e09bd511cf69fe4ae13ffc748ac143449bfc24bb3fd172d53a84f/tqdm-4.64.0.tar.gz"
-    sha256 "40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d"
+    url "https://files.pythonhosted.org/packages/62/06/d5604a70d160f6a6ca5fd2ba25597c24abd5c5ca5f437263d177ac242308/tqdm-4.66.1.tar.gz"
+    sha256 "d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"
   end
 
   def install
